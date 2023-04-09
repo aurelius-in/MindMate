@@ -7,6 +7,16 @@
 			background-color: #f2f2f2;
 			font-family: Arial, sans-serif;
 		}
+		.message {
+			padding: 10px;
+			margin-bottom: 10px;
+			width: 50%;
+		}
+		.message-in {
+			background-color: #f1f0f0;
+			float: left;
+			text-align: left;
+		}
 		h1 {
 			color: #ff6600;
 			text-align: center;
@@ -14,32 +24,46 @@
 		}
 		.container {
 			max-width: 800px;
-			margin: auto;
+			margin: 50px auto;
 			padding: 30px;
 			background-color: #ffffff;
 			box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 			border-radius: 10px;
-			margin-top: 50px;
+		}
+		.user, .mindmate {
+			padding: 10px;
+			border-radius: 10px;
+			margin-bottom: 10px;
+			display: block;
+			max-width: 60%;
+			margin-right: auto;
+			margin-left: auto;
 		}
 		.user {
 			background-color: #ff6600;
 			color: #ffffff;
-			padding: 10px;
-			border-radius: 10px;
-			margin-bottom: 10px;
-			display: inline-block;
-			max-width: 60%;
 			text-align: right;
 		}
 		.mindmate {
 			background-color: #3498db;
 			color: #ffffff;
-			padding: 10px;
-			border-radius: 10px;
-			margin-bottom: 10px;
-			display: inline-block;
-			max-width: 60%;
 			text-align: left;
+		}
+		.home {
+			position: fixed;
+			bottom: 20px;
+			left: 20px;
+			padding: 10px;
+			background-color: #3498db;
+			color: #ffffff;
+			border-radius: 20px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+			text-align: center;
+			width: 80px;
+			height: 40px;
+			line-height: 30px;
+			font-size: 20px;
+			text-decoration: none;
 		}
 	</style>
 </head>
@@ -71,5 +95,6 @@
 			You're welcome! Let me know if you have any other questions or concerns.
 		</div>
 	</div>
+	<a class="home" href="presentation.html">HOME</a>
 </body>
 </html>
