@@ -1,4 +1,6 @@
-# MindMate AI Therapist Web Page
+# MindMate AI Therapist
+
+![Alt Text](images/MindMate.jpg)
 
 This repository contains the code and files needed to build MindMate, an AI therapist that interacts with patients like a therapist and displays a series of facial expressions.
 
